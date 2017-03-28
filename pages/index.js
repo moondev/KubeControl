@@ -25,13 +25,23 @@ export default () => (
   </div>
 </nav>
 
+<ul className="pt-menu pt-elevation-1">
+  <li className="pt-menu-header"><h6>Layouts</h6></li>
+  <li><button type="button" className="pt-menu-item pt-icon-layout-auto">Auto</button></li>
+  <li><button type="button" className="pt-menu-item pt-icon-layout-circle">Circle</button></li>
+  <li><button type="button" className="pt-menu-item pt-icon-layout-grid">Grid</button></li>
+  <li className="pt-menu-header"><h6>Views</h6></li>
+  <li><button type="button" className="pt-menu-item pt-icon-history">History</button></li>
+  <li><button type="button" className="pt-menu-item pt-icon-star">Favorites</button></li>
+  <li><button type="button" className="pt-menu-item pt-icon-envelope">Messages</button></li>
+</ul>
 
 <div className="docs-card-example">
-  <div className="pt-card pt-elevation-0 pt-interactive">
+  <div className="pt-card pt-elevation-2 pt-interactive">
     <h5><a href="#">Trader Profile</a></h5>
     <p>Overview of employee activity, including risk model, scores and scenario alert history.</p>
   </div>
-  <div className="pt-card pt-elevation-1 pt-interactive">
+  <div className="pt-card pt-elevation-2 pt-interactive">
     <h5><a href="#">Desk Profile</a></h5>
     <p>Desk-level summary of trading activity and trading profiles.</p>
   </div>
@@ -45,6 +55,21 @@ export default () => (
       @import "https://unpkg.com/normalize.css@^4.1.1";
       @import "https://unpkg.com/@blueprintjs/core@^1.11.0/dist/blueprint.css";
       
+      .pt-card{
+        float:left;
+        width: 31%;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:10px;
+        height:100px;
+      }
+
+      .pt-menu{
+        width:100px;
+        margin:5px;
+        float:left;
+      }
+
     `}</style>
     </div>
 )
