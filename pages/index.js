@@ -57,8 +57,7 @@ export default () => (
       
       .pt-card{
         float:left;
-        width: 31%;
-        margin-left:10px;
+        width: 25%;
         margin-right:10px;
         margin-top:10px;
         height:100px;
@@ -66,7 +65,7 @@ export default () => (
 
       .pt-menu{
         width:100px;
-        margin:5px;
+        margin:10px;
         float:left;
       }
 
