@@ -1,0 +1,25 @@
+{
+  "name": "nextgram",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^1.13.0",
+    "cowsay-browser": "^1.1.8",
+    "next": "latest",
+    "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.0.0",
+    "standard": "8.4.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "standard"
+  }
+}
